@@ -8,5 +8,7 @@ unless ENV["CI"]
   gem "yard",   require: false
 end
 
+gem 'rexml'
+gem 'http_router', github: 'juliogreff/http_router'
 gem "hanami-utils", "~> 1.3", require: false, git: "https://github.com/hanami/utils.git", branch: "1.3.x"
 gem "hanami-devtools",        require: false, git: "https://github.com/hanami/devtools.git", branch: "1.3.x"
